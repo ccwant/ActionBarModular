@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/view_menu_message_popup_bkg"
+    android:paddingTop="8dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center_vertical"
+        android:text="Hello word "
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center_vertical"
+        android:text="Hello word "
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:gravity="center_vertical"
+        android:text="Hello word "
+        android:textColor="#ff0000" />
+</LinearLayout>

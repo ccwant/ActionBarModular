@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--AppBar背景色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏背景色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控制控件被选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Action Bar Styles -->
+        <!--标题栏高度-->
+        <item name="actionBarSize">@dimen/actionBarSize</item>
+        <!--标题栏样式-取消系统默认-->
+        <item name="actionBarStyle">@style/ActionBarBaseStyle</item>
+    </style>
+    <!--标题栏样式-->
+    <style name="ActionBarBaseStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/colorPrimary</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <!--去掉阴影-->
+        <item name="elevation">0dp</item>
+        <item name="titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+    <!--ActionBar文字样式-->
+    <style name="ActionBarTextStyle" parent="android:TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--ActionBar按钮样式-->
+    <style name="ActionBarButtonStyle" parent="android:Widget">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:minWidth">@dimen/abc_action_button_min_width_material</item>
+        <item name="android:minHeight">@dimen/abc_action_button_min_height_material</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">@style/ActionBarTextStyle</item>
+        <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>
